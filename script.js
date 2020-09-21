@@ -27,7 +27,7 @@ rangeArray.forEach((element, index) => {
         textArray[2].value
     );
 
-    rangeArray[index].addEventListener("input", function teste() {
+    rangeArray[index].addEventListener("input", function inputListener() {
         textArray[index].value = this.value;
         color.style.backgroundColor = `rgb(${textArray[0].value},${textArray[1].value},${textArray[2].value})`;
         hex.value = fullColorHex(
