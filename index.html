@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>RGB Calculator</title>
+    </head>
+    <body>
+        <div class="main">
+            <h1>RGB Calculator</h1>
+            <div class="rows">
+                <div class="labels">
+                    <label class="label"><span class="r">(R) Red: </span></label>
+                    <label class="label"><span class="g">(G) Green: </span></label>
+                    <label class="label"><span class="b">(B) Blue: </span></label>
+                </div>
+                <div class="rangeInputs">
+                    <input type="range" class="rangeInput" min="0" max="255" value='0' />
+                    <input type="range" class="rangeInput" min="0" max="255" value='0'/>
+                    <input type="range" class="rangeInput" min="0" max="255" value='0'/>
+                </div>
+                <div class="textInputs">
+                    <input type="text" class="textInput" disabled />
+                    <input type="text" class="textInput" disabled />
+                    <input type="text" class="textInput" disabled />
+                </div>
+            </div>
+        </div>
+
+        <div class="color">
+        </div>
+        <div class="hex">
+            <span>Hex: </span>
+            <input id="hexInput" type="text" disabled>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
