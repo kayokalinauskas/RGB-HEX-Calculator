@@ -1,3 +1,15 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+
+body {
+    padding: 50px;
+    font-family: 'Consolas';
+}
+
+
 .main {
     display: flex;
     flex-direction: column;
@@ -23,17 +35,18 @@
 
 .rows {
     display: flex;
-    width: 330px;
+    width: 500px;
 }
 
 .label {
+    
     margin-top: 10px;
 }
 .rangeInput {
-    margin-top: 10px;
+    margin-top: 12px;
 }
 .textInput {
-    margin-top: 7px;
+    margin-top: 9px;
 }
 
 .r {
